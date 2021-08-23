@@ -1,9 +1,9 @@
 <?php
-
+// use your own db details to connect DB
 $servername = "localhost";
-$username = "national";
-$password = "eQjAG9bC";
-$db = "national_ndhdb";
+$username = "";
+$password = "";
+$db = "";
 
 // Create connection
 $con = mysqli_connect($servername, $username, $password,$db);
