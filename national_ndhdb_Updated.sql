@@ -40,9 +40,7 @@ CREATE TABLE `admin_info` (
 --
 
 INSERT INTO `admin_info` (`admin_id`, `admin_name`, `admin_email`, `admin_password`) VALUES
-(1, 'nationaldrughouse', 'roma@gmail.com', '25f9e794323b453885f5181f1b624d0b'),
-(2, 'Ravi Gyawali', 'ravi@gmail.com', '55eee474cb73cb626a0da2bdf8163473'),
-(4, 'Richa Gyawali', 'richupichu25@gmail.com', '55eee474cb73cb626a0da2bdf8163473');
+(1, 'Ravi Gyawali', 'ravi@gmail.com', '55eee474cb73cb626a0da2bdf8163473');
 
 -- --------------------------------------------------------
 
