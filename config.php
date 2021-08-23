@@ -7,10 +7,12 @@ $email    = "";
 $errors = array(); 
 
 // connect to the database
+
+// please use your own credentials below to connect DB
 define('DB_SERVER', 'localhost');
-   define('DB_USERNAME', 'hotelfew');
-   define('DB_PASSWORD', 'UP4Khi8n');
-   define('DB_DATABASE', 'hotelfew_ndh');
+   define('DB_USERNAME', '');
+   define('DB_PASSWORD', '');
+   define('DB_DATABASE', '');
    $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
 if (!$db) {
     die("Connection failed: " . mysqli_connect_error());
